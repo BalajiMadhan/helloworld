@@ -2,7 +2,7 @@
 applications:
 - name: HelloWorld
   host: helloworldsampleApp
-  instances: 1
-  memory: 256M
+  instances: 
+  memory: 1024M
   path: target/HelloWorld-0.0.1-SNAPSHOT.jar
  
