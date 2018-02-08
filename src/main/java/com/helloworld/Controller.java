@@ -14,7 +14,7 @@ public class Controller {
 	
 	@RequestMapping(value="/",method=RequestMethod.GET,produces=MediaType.APPLICATION_JSON_VALUE)
 	public String helloWorld() {	
-		return "Hello World!";
+		return "Hello World!!";
 	}
 
 }
